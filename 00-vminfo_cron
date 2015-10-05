@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# Cronjob for backup script
+#
+# ---
+#
+# Author    Anders Evenrud <anders.evenrud@copyleft.no>
+# Project   xshost
+# Git       git@git2.cl.no:xshost-vminfo
+# Issue     issue148334 - XenServer disk-backup with VM-information bundle
+#
+# ---
+#
+
+python /root/xshost-vminfo/backup.py
+
